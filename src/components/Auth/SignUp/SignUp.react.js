@@ -258,6 +258,7 @@ export default class SignUp extends Component {
   };
 
   render() {
+    console.log(CAPTCHA_KEY, 'CAPTCHA_KEY');
     const styles = {
       emailStyle: {
         height: '35px',
